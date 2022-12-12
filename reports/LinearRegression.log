@@ -17,14 +17,14 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-# Syntax
-pd.cut(series, interval, right=True,label)
+training_label
 ------------------
 
-[0;36m  File [0;32m"<ipython-input-6-71a191df9c2d>"[0;36m, line [0;32m2[0m
-[0;31m    pd.cut(series, interval, right=True,label)[0m
-[0m                                        ^[0m
-[0;31mSyntaxError[0m[0;31m:[0m positional argument follows keyword argument
-
-SyntaxError: positional argument follows keyword argument (<ipython-input-6-71a191df9c2d>, line 2)
+[0;31m[0m
+[0;31mNameError[0mTraceback (most recent call last)
+[0;32m<ipython-input-3-3cd7efa658f1>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mtraining_label[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[0;31mNameError[0m: name 'training_label' is not defined
+NameError: name 'training_label' is not defined
 
